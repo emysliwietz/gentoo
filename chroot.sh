@@ -6,6 +6,6 @@ mount --make-rslave /mnt/gentoo/sys
 mount --rbind /dev /mnt/gentoo/dev
 mount --make-rslave /mnt/gentoo/dev
 
-echo 'chroot /mnt/gentoo /bin/bash && source /etc/profile && export PS1="(chroot) ${PS1}"'
+echo 'sudo chroot /mnt/gentoo /bin/bash && source /etc/profile && export PS1="(chroot) ${PS1}"'
 
 echo "Run above to chroot"
