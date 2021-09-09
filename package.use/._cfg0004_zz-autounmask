@@ -1,0 +1,8 @@
+# package.use# required by app-admin/setools-4.4.0::gentoo[X]
+# required by sys-apps/selinux-python-3.2::gentoo[-test]
+# required by sys-apps/policycoreutils-3.2::gentoo
+# required by sec-policy/selinux-shutdown-2.20210203-r1::gentoo
+# required by sys-apps/sysvinit-2.99::gentoo
+# required by sys-apps/openrc-0.43.5::gentoo[-sysv-utils]
+# required by net-misc/netifrc-0.7.3::gentoo
+>=dev-python/PyQt5-5.15.4-r1 gui widgets
